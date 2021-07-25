@@ -1,0 +1,140 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Domine', serif;
+}
+
+.container1 {
+        background-image: url(https://images.unsplash.com/photo-1627048679561-a9079cb4da1d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=801&q=80);
+        height:100vh;
+        background-size: cover;
+        text-align: center;
+}
+.container1 h1 {
+    font-family: 'Dancing Script', cursive;
+    color: azure;
+    font-size: 6em;
+    padding-top: 15% ;
+    transition: all 1s linear
+}
+
+
+.container1 h3 {
+    color: beige;
+    padding-top: 4em;
+    font-size: 2em;
+}
+.main-nav {
+    position: absolute;
+    display:flex;
+}
+.main-nav .heading {
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    font-weight: 700;
+    padding-top: 0.6em;
+}
+
+.main-nav img {
+    margin-left: 1.5em;
+}
+
+.container2 {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.hollybox h3 {
+    margin-bottom: 10px;
+}
+
+.hollybox {
+    padding: 1em;
+    margin: 0.5em;
+    transition: all 1s;
+    text-align: center;
+}
+
+.hollybox:hover {
+    transform: scale(1);
+    box-shadow: 10px 10px 20px ;
+}
+
+hr {
+    width:70%;
+    margin: 0 auto;
+    height: 3px;
+    margin-top: 1em;
+    background-color: black;
+}
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all 0.5s linear;
+  }
+
+  .image:hover {
+    transform: scale(1.1);
+  }
+
+.amazonLogo {
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+.foot {
+    background-color: darkgray;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    list-style: none;
+    padding: 0.5em 1.5em;
+}
+
+.copyrights {
+    padding-top: 10px;
+    font-weight: 800;
+}
+
+.instalog {
+    padding-top: 0.2em;
+}
+
+.facelog {
+    padding-top: 0.3em;
+}
+
+@media screen and (max-width:1050px) {
+    .container1 h1 {
+        font-family: 'Dancing Script', cursive;
+        color: azure;
+        font-size: 6em;
+        padding-top: 33% ;
+        transition: all 1s linear
+    }
+}
+
+@media screen and (max-width: 553px) {
+    .container1 h1 {
+        font-family: 'Dancing Script', cursive;
+        color: azure;
+        font-size: 4em;
+        padding-top: 65% ;
+        transition: all 1s linear
+    }
+}
+
+@media screen and (max-width: 378) {
+    * {
+        width: 100vw;
+    }
+    
+}
